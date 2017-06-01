@@ -69,7 +69,7 @@ public class Solution {
         printArr(table[1]);
         System.out.println("Кубический сплайн:");
         System.out.println("r*: " + Math.abs(calcSpline(table, N, 0.1, 0.1 / 3, 1) - calcF(0.1 / 3)));
-        System.out.println("r**: " + Math.abs(calcSpline(table, N, 0.1, 0.5 + 0.1 / 3, 5) - calcF(0.5 + 0.1 / 3)));
+        System.out.println("r**: " + Math.abs(calcSpline(table, N, 0.1, 0.5 + 0.1 / 3, 6) - calcF(0.5 + 0.1 / 3)));
         System.out.println("r***: " + Math.abs(calcSpline(table, N, 0.1, 1 - 0.1 / 3, 10) - calcF(1 - 0.1 / 3)));
     }
 }
